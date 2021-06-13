@@ -1,0 +1,66 @@
+{
+  "name": "backend-learning-nodejs",
+  "version": "1.0.0",
+  "description": "This is my learing node structure for best uses architecture",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devhaina/backend-best-practice.git"
+  },
+  "keywords": [
+    "best",
+    "node",
+    "structure"
+  ],
+  "author": "AK Amar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/devhaina/backend-best-practice/issues"
+  },
+  "homepage": "https://github.com/devhaina/backend-best-practice#readme",
+  "dependencies": {
+    "async": "^3.2.0",
+    "bcrypt": "^5.0.1",
+    "body-parser": "^1.19.0",
+    "canvas": "^2.8.0",
+    "compression": "^1.7.4",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-jwt": "^6.0.0",
+    "extend": "^3.0.2",
+    "joi": "^17.4.0",
+    "jsonwebtoken": "^8.5.1",
+    "lodash": "^4.17.21",
+    "method-override": "^3.0.0",
+    "nodemailer": "^6.6.1",
+    "nodemon": "^2.0.7",
+    "pg": "^8.6.0",
+    "pg-hstore": "^2.3.4",
+    "sendgrid": "^5.2.3",
+    "sequelize": "^6.6.2",
+    "sequelize-cli": "^6.2.0",
+    "swagger-jsdoc": "^6.1.0",
+    "swagger-model-validator": "^3.0.20",
+    "swagger-ui-express": "^4.1.6",
+    "uuid": "^8.3.2",
+    "winston": "^3.3.3",
+    "winston-daily-rotate-file": "^4.5.5"
+  },
+  "devDependencies": {
+    "eslint": "^7.28.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-import": "^2.23.4",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^5.1.0",
+    "gulp": "^4.0.2",
+    "gulp-eslint": "^6.0.0",
+    "gulp-minify": "^3.1.0",
+    "gulp-notify": "^4.0.0",
+    "gulp-size": "^4.0.1"
+  }
+}
